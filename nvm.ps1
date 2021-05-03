@@ -167,7 +167,7 @@ switch ($args[0]) {
     UnInstall_Node $args[1]
   }
   "use" { 
-    UnInstall_Node $args[1]
+    Use_Node $args[1]
   }
   "list" { 
     List_LocalNode
